@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 interface DesktopItemProps {
   label: string;
@@ -22,6 +21,7 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
       return onClick();
     }
   };
+  console.log(active)
 
   return ( 
     <li onClick={handleClick} key={label}>
@@ -39,8 +39,9 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
             text-gray-500 
             hover:text-black 
             hover:bg-gray-100
+            active:text-black
           `,
-            active && 'bg-gray-100 text-black'
+            active && 'bg-gray-100 text-gray-950  '
           )}
       >
         <Icon className="h-6 w-6 shrink-0" aria-hidden="true" />
