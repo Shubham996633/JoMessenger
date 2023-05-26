@@ -2,7 +2,7 @@
 import useConversation from "@/app/hooks/useConversation"
 import { FullConversationType } from "@/app/types"
 import { Conversation } from "@prisma/client"
-import { ConversationBox } from "./ConversationBox"
+import  ConversationBox  from "./ConversationBox"
 import clsx from "clsx"
 import { useRouter } from 'next/navigation';
 import { useState } from "react"
