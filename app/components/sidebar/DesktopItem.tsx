@@ -21,7 +21,6 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
       return onClick();
     }
   };
-  console.log(active)
 
   return ( 
     <li onClick={handleClick} key={label}>
@@ -39,9 +38,8 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
             text-gray-500 
             hover:text-black 
             hover:bg-gray-100
-            active:text-black
           `,
-            active && 'bg-gray-100 text-gray-950  '
+            active && 'bg-gray-100 text-black'
           )}
       >
         <Icon className="h-6 w-6 shrink-0" aria-hidden="true" />

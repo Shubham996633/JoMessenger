@@ -64,5 +64,3 @@ const UserBox: React.FC<UserBoxProps> = ({
 }
  
 export default UserBox;
-
-// 3:14
