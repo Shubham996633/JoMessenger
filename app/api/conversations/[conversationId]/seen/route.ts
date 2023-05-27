@@ -13,6 +13,7 @@ export async function POST(
   { params }: { params: IParams }
 ) {
   try {
+    console.log('hi')
     const currentUser = await getCurrentUser();
     const {
       conversationId
@@ -83,6 +84,8 @@ export async function POST(
 
     return new NextResponse('Success');
   } catch (error) {
+    console.log('hi')
+
     console.log(error, 'ERROR_MESSAGES_SEEN')
     return new NextResponse('Error', { status: 500 });
   }
