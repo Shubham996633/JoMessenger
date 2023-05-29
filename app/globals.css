@@ -7,3 +7,18 @@ body,
 :root {
   height: 100%;
 }
+.gradient-text {
+  background: linear-gradient(90deg, rgb(84, 51, 230),rgb(244, 114, 131), rgb(255, 0, 43));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-modal {
+  display: flex;
+  align-items: center;
+}
+
+.modal-content {
+  height: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
