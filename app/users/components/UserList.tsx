@@ -26,6 +26,7 @@ const UserList: React.FC<UserListProps> = ({
         border-r 
         border-gray-200
         block w-full left-0
+        bg-stone-950
       "
     >
       <div className="px-5">
@@ -34,7 +35,7 @@ const UserList: React.FC<UserListProps> = ({
             className="
               text-2xl 
               font-bold 
-              text-neutral-800 
+              text-slate-100 
               py-4
             "
           >

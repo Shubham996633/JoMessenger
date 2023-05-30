@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
     />
     <div 
       className="
-        bg-white 
+         
         w-full 
         flex 
         border-b-[1px] 
@@ -53,9 +53,10 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
         justify-between 
         items-center 
         shadow-sm
+        bg-stone-950
       "
     >
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center   bg-stone-950">
         <Link
           href="/conversations" 
           className="
@@ -74,9 +75,9 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
         ) : (
           <Avatar user={otherUser} />
         )}
-        <div className="flex flex-col">
+        <div className="flex flex-col   bg-stone-950 text-white">
           <div>{conversation.name || otherUser.name}</div>
-          <div className="text-sm font-light text-neutral-500">
+          <div className="text-sm font-light text-neutral-300">
             {statusText}
           </div>
         </div>

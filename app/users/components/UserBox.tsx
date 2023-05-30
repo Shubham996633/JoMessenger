@@ -39,12 +39,13 @@ const UserBox: React.FC<UserBoxProps> = ({
           flex 
           items-center 
           space-x-3 
-          bg-white 
+          bg-zinc-950
           p-3 
-          hover:bg-neutral-100
+          hover:bg-zinc-900	
           rounded-lg
           transition
           cursor-pointer
+          text-white
         "
       >
         <Avatar user={data} />
@@ -52,7 +53,7 @@ const UserBox: React.FC<UserBoxProps> = ({
           <div className="focus:outline-none">
             <span className="absolute inset-0" aria-hidden="true" />
             <div className="flex justify-between items-center mb-1">
-              <p className="text-sm font-medium text-gray-900">
+              <p className="text-sm font-medium text-white">
                 {data.name}
               </p>
             </div>

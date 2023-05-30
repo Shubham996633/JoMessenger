@@ -108,7 +108,7 @@ const AuthForm = () => {
 
   return (
     <>
-      <div className="sm:mx-auto sm:w-full sm:max-w-md">
+      <div className="sm:mx-auto sm:w-full sm:max-w-md bg-stone-950">
         <Image
           height="48"
           width="48"
@@ -123,16 +123,16 @@ const AuthForm = () => {
         text-3xl 
         font-bold 
         tracking-tight 
-        text-gray-900
+        text-slate-100
       "
         >
           Sign in to your account
         </h2>
       </div>
-      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md bg-stone-950">
         <div
           className="
-        bg-white
+          bg-stone-950
           px-4
           py-8
           shadow
@@ -185,7 +185,7 @@ const AuthForm = () => {
           {isLoading ? (
             ""
           ) : (
-            <>
+            <> 
               <div className="mt-6">
                 <div className="relative">
                   <div
@@ -199,7 +199,7 @@ const AuthForm = () => {
                     <div className="w-full border-t border-gray-300" />
                   </div>
                   <div className="relative flex justify-center text-sm">
-                    <span className="bg-white px-2 text-gray-500">
+                    <span className="bg-stone-950 px-2 text-slate-300">
                       Or continue with
                     </span>
                   </div>
@@ -224,7 +224,7 @@ const AuthForm = () => {
             text-sm 
             mt-6 
             px-2 
-            text-gray-500
+            text-slate-300
           "
               >
                 <div>
