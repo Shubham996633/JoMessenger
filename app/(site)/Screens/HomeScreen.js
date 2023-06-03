@@ -56,7 +56,7 @@ const HomeScreen = () => {
   centered
   className="custom-modal"
   style={{ backgroundColor: '#0c0a09' }}
-  width="60%"
+  width="90%"
   
 >
   <div className="modal-content">

@@ -1,4 +1,3 @@
-"use client";
 
 import axios from "axios";
 import { signIn, useSession } from "next-auth/react";
@@ -108,38 +107,22 @@ const AuthForm = () => {
 
   return (
     <>
-      <div className="sm:mx-auto sm:w-full sm:max-w-md bg-stone-950">
-        <Image
-          height="48"
-          width="48"
-          className="mx-auto w-auto"
-          src="/images/logo.png"
-          alt="Logo"
-        />
-        <h2
-          className="
-        mt-6 
-        text-center 
-        text-3xl 
-        font-bold 
-        tracking-tight 
-        text-slate-100
-      "
-        >
-          Sign in to your account
+      <div className="w-full max-w-md mx-auto bg-stone-950 p-4">
+        <div className="flex justify-center">
+          <Image
+            height={48}
+            width={48}
+            className="mx-auto w-auto"
+            src="/images/logo.png"
+            alt="Logo"
+          />
+        </div>
+        <h2 className="mt-6 text-3xl font-bold text-center text-slate-100">
+          Sign {variant === "LOGIN" ? 'in' : 'up'}  to your account
         </h2>
       </div>
-      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md bg-stone-950">
-        <div
-          className="
-          bg-stone-950
-          px-4
-          py-8
-          shadow
-          sm:rounded-lg
-          sm:px-10
-        "
-        >
+      <div className="w-full max-w-md mx-auto mt-8 bg-stone-950 shadow sm:rounded-lg">
+        <div className="p-4 sm:p-10">
           <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
             {variant === "REGISTER" && (
               <Input
@@ -171,10 +154,7 @@ const AuthForm = () => {
             />
             <div>
               {isLoading ? (
-                <Loading
-                  size="lg"
-                  className="justify-center place-self-center"
-                />
+                <Loading size="lg" className="justify-center place-self-center" />
               ) : (
                 <Button disabled={isLoading} fullWidth type="submit">
                   {variant === "LOGIN" ? "Sign in" : "Register"}
@@ -182,20 +162,11 @@ const AuthForm = () => {
               )}
             </div>
           </form>
-          {isLoading ? (
-            ""
-          ) : (
-            <> 
+          {isLoading ? null : (
+            <>
               <div className="mt-6">
                 <div className="relative">
-                  <div
-                    className="
-                absolute 
-                inset-0 
-                flex 
-                items-center
-              "
-                  >
+                  <div className="absolute inset-0 flex items-center">
                     <div className="w-full border-t border-gray-300" />
                   </div>
                   <div className="relative flex justify-center text-sm">
@@ -216,26 +187,11 @@ const AuthForm = () => {
                   />
                 </div>
               </div>
-              <div
-                className="
-            flex 
-            gap-2 
-            justify-center 
-            text-sm 
-            mt-6 
-            px-2 
-            text-slate-300
-          "
-              >
+              <div className="flex gap-2 justify-center text-sm mt-6 px-2 text-slate-300">
                 <div>
-                  {variant === "LOGIN"
-                    ? "New to Messenger?"
-                    : "Already have an account?"}
+                  {variant === "LOGIN" ? "New to Messenger?" : "Already have an account?"}
                 </div>
-                <div
-                  onClick={toggleVariant}
-                  className="underline cursor-pointer"
-                >
+                <div onClick={toggleVariant} className="underline cursor-pointer">
                   {variant === "LOGIN" ? "Create an account" : "Login"}
                 </div>
               </div>
