@@ -19,20 +19,20 @@ Deployed Link : https://lnkd.in/d8Vs7B2p
 
 🎥 Check out my demo video to see it in action 🎥
 
-🌟 Key Features:
-✅ Real-time messaging: Experience seamless conversations with friends and loved ones.
-✅ User-friendly interface: Navigate through your chats effortlessly and enjoy a smooth user experience.
-✅ Multimedia support: Share photos, videos, and files to bring your conversations to life.
-✅ Group chats: Connect with multiple friends simultaneously and stay in sync.
-✅ Secure and private: Rest assured that your conversations are protected with advanced encryption.
+🌟 Key Features:<br>
+✅ Real-time messaging: Experience seamless conversations with friends and loved ones.<br>
+✅ User-friendly interface: Navigate through your chats effortlessly and enjoy a smooth user experience.<br>
+✅ Multimedia support: Share photos, videos, and files to bring your conversations to life.<br>
+✅ Group chats: Connect with multiple friends simultaneously and stay in sync.<br>
+✅ Secure and private: Rest assured that your conversations are protected with advanced encryption.<br>
 
 The JoMessenger is built using 
-► Next JS
-► TypeScript
-► Prisma
-► Pusher JS
-► Ant Design
-► MongoDB
-► Tailwind CSS
+► Next JS<br>
+► TypeScript<br>
+► Prisma<br>
+► Pusher JS<br>
+► Ant Design<br>
+► MongoDB<br>
+► Tailwind CSS<br>
 
 👉 Don’t forgot to message me (Shubham Maurya) on Next.js Messenger Clone! 🚀📲💬
