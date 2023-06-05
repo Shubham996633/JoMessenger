@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JoMessenger
 
-## Getting Started
+"Try My Next.js Messenger Clone!"
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+🚀 Introducing the Next.js Messenger Clone! 🚀
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+This is my Next.js Messenger Clone, a powerful and feature-rich communication platform that will provide the similar feel like a messenger. 📲💬
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/Shubham996633/JoMessenger/assets/65014926/13bea583-460d-4a95-b040-178218812e40)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deployed Link : https://lnkd.in/d8Vs7B2p
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🎥 Check out my demo video to see it in action 🎥
+
+🌟 Key Features:
+✅ Real-time messaging: Experience seamless conversations with friends and loved ones.
+✅ User-friendly interface: Navigate through your chats effortlessly and enjoy a smooth user experience.
+✅ Multimedia support: Share photos, videos, and files to bring your conversations to life.
+✅ Group chats: Connect with multiple friends simultaneously and stay in sync.
+✅ Secure and private: Rest assured that your conversations are protected with advanced encryption.
+
+The JoMessenger is built using 
+► Next JS
+► TypeScript
+► Prisma
+► Pusher JS
+► Ant Design
+► MongoDB
+► Tailwind CSS
+
+👉 Don’t forgot to message me (Shubham Maurya) on Next.js Messenger Clone! 🚀📲💬
