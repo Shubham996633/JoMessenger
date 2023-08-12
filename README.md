@@ -1,4 +1,3 @@
-![image](https://github.com/Shubham996633/JoMessenger/assets/65014926/5aae8b5a-6dd6-48cb-a6d3-313ecfb30430)# JoMessenger
 
 "Try My Next.js Messenger Clone!"
 
