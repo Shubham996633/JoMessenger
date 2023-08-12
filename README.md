@@ -1,4 +1,4 @@
-# JoMessenger
+![image](https://github.com/Shubham996633/JoMessenger/assets/65014926/5aae8b5a-6dd6-48cb-a6d3-313ecfb30430)# JoMessenger
 
 "Try My Next.js Messenger Clone!"
 
@@ -10,7 +10,8 @@
 
 This is my Next.js Messenger Clone, a powerful and feature-rich communication platform that will provide the similar feel like a messenger. 📲💬
 
-![image](https://github.com/Shubham996633/JoMessenger/assets/65014926/13bea583-460d-4a95-b040-178218812e40)
+![image](https://github.com/Shubham996633/JoMessenger/assets/65014926/db4971a9-80fa-4bad-b5d6-84c005b900c0)
+
 
 
 Deployed Link : https://lnkd.in/d8Vs7B2p
